@@ -6,15 +6,25 @@ echo --=== Hoy es %date%%time% ===--
 echo Introduce la clave
 set /p contra=
 
-if %contra%==salud GOTO correcto 
+if /i %contra%==salud GOTO correcto 
 else 
 GOTO incorrecto
 
 :correcto
 cls
-echo CORRECTO!
+echo Tiene fiebre? S/N
+set /p fiebre=
+echo Tiene perdida de olfato? S/N
+set /p olfato=
+echo Tiene hipertension? S/N
+set /p hipert=
+
+echo fiebre es %fiebre%
+
+echo == Gracias por utilizar el Sistema de Salud ==
+echo -- Presiona cualquier tecla para continuar --
 pause>nul
-rem exit
+GOTO:eof
 
 :incorrecto
 cls
