@@ -14,12 +14,19 @@ GOTO incorrecto
 cls
 echo Tiene fiebre? S/N
 set /p fiebre=
+cls
 echo Tiene perdida de olfato? S/N
 set /p olfato=
+cls
 echo Tiene hipertension? S/N
 set /p hipert=
 
-echo fiebre es %fiebre%
+
+if %fiebre%==S (echo --Tienes fiebre) else if %fiebre%==N (echo --No tienes fiebre)
+if %olfato%==S (echo --Tienes Perdida de olfato) else if %olfato%==N (echo --No tienes perdida de olfato)
+if %hipert%==S (echo --Tienes hipertension) else if %hipert%==N (echo --No tienes hipertension)
+
+rem If %fiebre%==%olfato%  (echo Tienes Covid19) else (echo No tienes Covid19) 
 
 echo == Gracias por utilizar el Sistema de Salud ==
 echo -- Presiona cualquier tecla para continuar --
