@@ -25,8 +25,8 @@ set /p hipert=
 if %fiebre%==S (echo --Tienes fiebre) else if %fiebre%==N (echo --No tienes fiebre)
 if %olfato%==S (echo --Tienes Perdida de olfato) else if %olfato%==N (echo --No tienes perdida de olfato)
 if %hipert%==S (echo --Tienes hipertension) else if %hipert%==N (echo --No tienes hipertension)
-
-rem If %fiebre%==%olfato%  (echo Tienes Covid19) else (echo No tienes Covid19) 
+---------
+If %fiebre%EQU%olfato% if   (echo Tienes Riesgo de Covid19)
 
 echo == Gracias por utilizar el Sistema de Salud ==
 echo -- Presiona cualquier tecla para continuar --
