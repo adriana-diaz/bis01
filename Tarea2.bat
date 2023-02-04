@@ -13,7 +13,6 @@ GOTO incorrecto
 :correcto
 cls
 :Menu
-pause
 cls
 echo Selecciones los sistomas de Covid 19 que usted posea
 echo 1-Fiebre
@@ -29,6 +28,15 @@ If %opc% ==3 goto opcion3
 If %opc% ==4 goto opcion4
 If %opc% ==5 goto opcion5
 
+:opcion1 
+echo Tienes riesgo de covid 19
+pause
+
+
+echo == Gracias por utilizar el Sistema de Salud ==
+echo -- Presiona cualquier tecla para continuar --
+pause>nul
+GOTO:eof
 
 :incorrecto
 cls
