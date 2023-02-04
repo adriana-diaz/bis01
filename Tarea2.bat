@@ -1,7 +1,8 @@
 @echo off
 :inicio
 cls
-echo --== Bienvenido al Sistema de Salud ==--
+color 0b
+echo --== Bienvenido al Sistema de Salud ==-- 
 echo --=== Hoy es %date%%time% ===--
 echo Introduce la clave
 set /p contra=
@@ -14,7 +15,8 @@ GOTO incorrecto
 cls
 :Menu
 cls
-echo Selecciones los sistomas de Covid 19 que usted posea
+color 0A
+echo Selecciones los sistomas de Covid 19 que usted posea:
 echo 1-Fiebre
 echo 2-Perdida de olfato
 echo 3-Hipertension
@@ -51,7 +53,7 @@ goto mensajefinal
 
 :opcion4 
 cls
-echo Ups tienes covid 19, contacte con un médico lo antes posible
+echo Ups tienes covid 19, contacte con un medico lo antes posible
 pause>nul
 cls
 goto mensajefinal
@@ -65,6 +67,7 @@ goto mensajefinal
 
 
 :mensajefinal
+color 0E
 echo == Gracias por utilizar el Sistema de Salud ==
 echo -- Presiona cualquier tecla para continuar --
 pause>nul
