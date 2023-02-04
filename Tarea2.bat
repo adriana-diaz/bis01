@@ -30,35 +30,35 @@ If %opc% ==5 goto opcion5
 
 :opcion1 
 cls
-echo Tienes riesgo de covid 19
+echo Tienes riesgo de covid 19, utilice mascarilla y lavese las manos seguido
 pause>nul
 cls
 goto mensajefinal
 
 :opcion2 
 cls
-echo Tienes riesgo de covid 19
+echo Tienes riesgo de covid 19, utilice mascarilla y lavese las manos seguido
 pause>nul
 cls
 goto mensajefinal
 
 :opcion3
 cls
-echo Tienes riesgo de covid 19
+echo Tienes riesgo de covid 19, utilice mascarilla y lavese las manos seguido
 pause>nul
 cls
 goto mensajefinal
 
 :opcion4 
 cls
-echo Ups tienes covid 19
+echo Ups tienes covid 19, contacte con un médico lo antes posible
 pause>nul
 cls
 goto mensajefinal
 
 :opcion5
 cls
-echo Yey no tienes covid 19
+echo Yey no tienes covid 19 
 pause>nul
 cls
 goto mensajefinal
