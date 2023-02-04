@@ -30,9 +30,22 @@ If %opc% ==5 goto opcion5
 
 :opcion1 
 echo Tienes riesgo de covid 19
-pause
 
 
+:opcion2 
+echo Tienes riesgo de covid 19
+
+
+:opcion3
+echo Tienes riesgo de covid 19
+
+:opcion4 
+echo Ups tienes covid 19
+
+
+:opcion5
+echo Yey no tienes covid 19
+echo ***********************************************
 echo == Gracias por utilizar el Sistema de Salud ==
 echo -- Presiona cualquier tecla para continuar --
 pause>nul
