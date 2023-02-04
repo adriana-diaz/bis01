@@ -60,11 +60,10 @@ goto mensajefinal
 
 :opcion5
 cls
-echo Yey no tienes covid 19 
+echo Yey no tienes covid 19, estas libre de contagio  
 pause>nul
 cls
 goto mensajefinal
-
 
 :mensajefinal
 color 0E
